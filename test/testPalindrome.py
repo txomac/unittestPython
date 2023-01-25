@@ -3,6 +3,9 @@ import unittest
 from OhceBuilder import OhceBuilder
 from parameterized import parameterized
 
+from src.langue.LangueAng import LangueAnglaise
+from src.langue.LangueFr import LangueFr
+
 
 class PalindromeTest(unittest.TestCase):
     def test_renvoi_miroir(self):

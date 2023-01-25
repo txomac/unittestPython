@@ -1,6 +1,10 @@
 import unittest
 
-from src.Ohce import Ohce
+from parameterized import parameterized
+
+from OhceBuilder import OhceBuilder
+from src.langue.LangueAng import LangueAnglaise
+from src.langue.LangueFr import LangueFr
 
 
 class SalutationTest(unittest.TestCase):
